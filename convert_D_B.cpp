@@ -15,7 +15,7 @@ int main(){
             int bit = n & 1;
             ans += bit * pow;
             // ans += bit * pow(10, i);
-            pow *= 10;
+            pow *= 10; // power of 10 ko iss tarah obtain kiya instead of using the pow() function of math.h header file.
             n = n >> 1;
             // i++;
         }

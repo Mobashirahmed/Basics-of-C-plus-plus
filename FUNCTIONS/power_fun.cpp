@@ -17,7 +17,7 @@ int main()
 
 int power()
 {
-
+    // cout << a <<endl; is tarah se ek aise variable ko acess nahi kar sakte jo kisi aur function me initialized hai aur nah hi uski koi copy yahan pass ki gayi hai
     int x, y;
     cin >> x >> y;
 

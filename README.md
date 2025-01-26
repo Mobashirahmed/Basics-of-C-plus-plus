@@ -67,3 +67,7 @@ Lecture 01 Key highlights:
     }
 
   # Loops And forming Patterns with the help of loop
+
+  # Switch case and Understanding break and continue keyword
+
+  # Functions
