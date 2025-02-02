@@ -18,7 +18,7 @@ int main(){
 
     int exArray[7] = {2, 5, 1, 7, 12, 41, 9};
 
-    Update(exArray, 7); // calling the function
+    Update(exArray, 7); // calling the function ; here the name of the array act as the reference. Hence its a call by reference. i.e; the name of the array also act as a pointer pointing to the first element of the array 
 
     for(int i = 0; i<7; i++){
         cout << exArray[i] << " ";
